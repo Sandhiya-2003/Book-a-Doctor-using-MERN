@@ -122,8 +122,3 @@ REACT_APP_CLOUDINARY_PRESET=YOUR_OWN_CLOUDINARY_PRESET
 <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
 <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a>
 <br/>
-
-### Connect with me :
-
-<a href="https://www.linkedin.com/in/nitesh-meena-2512a6212/" target="blank"><img align="center" src="https://img.icons8.com/color/48/000000/linkedin.png" alt=" | LinkedIn" height="35" width="35" /></a>
-
