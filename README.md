@@ -5,19 +5,39 @@ In this Project we have tried to create a Book a Doctor Application using MERN S
 2. MongoDB: Set up a local or cloud-based MongoDB database.
 
 **To run this on your local machine**
-Step 1: Use Git to clone the project repository to your local machine or Clone the repository by using clone from version control systems option from IDE . 
-Step 2 : Use npm or yarn to install the required dependencies 
-Step 3 : Add .env file in root directory for the backend which contains
-	_PORT=5000
-  MONGO_URI=YOUR_OWN_MONGODB_URL
-  JWT_SECRET=YOUR_JWT_SECRET_
-Step 4: Add .env file in client directory for the frontend which contains
-_REACT_APP_SERVER_DOMAIN=http://127.0.0.1:5000/api
+<ol>
+<li>Download the project from the git repository</li>
+<li>Add .env file in root directory for the backend which contains</li>
+
+```
+PORT=5000
+MONGO_URI=YOUR_OWN_MONGODB_URL
+JWT_SECRET=YOUR_JWT_SECRET
+```
+<li>Add .env file in client directory for the frontend which contains</li>
+
+```
+
+REACT_APP_SERVER_DOMAIN=http://127.0.0.1:5000/api
 REACT_APP_CLOUDINARY_BASE_URL=https://api.cloudinary.com/v1_1/{CLOUD_NAME}/image/upload
-REACT_APP_CLOUDINARY_CLOUD_NAME=YOUR_CLOUDINARY_CLOUD_NAME
-REACT_APP_CLOUDINARY_PRESET=YOUR_CLOUDINARY_PRESET_
-Replace the {CLOUD_NAME} with your own cloudinary cloud name
-Step 5: Install MongoDB , NodeJS for your machine and create the database and create required collections In MongoDB
+REACT_APP_CLOUDINARY_CLOUD_NAME=YOUR_OWN_CLOUDINARY_CLOUD_NAME
+REACT_APP_CLOUDINARY_PRESET=YOUR_OWN_CLOUDINARY_PRESET
+```
+**Note:** Replace the **{CLOUD_NAME}** with your own cloudinary cloud name
+
+<li>To run the backend, go to root directory in the terminal and execute: npm start</li>
+<li>To run the frontend, open a new terminal and run 'cd client/' to go to client directory and execute: npm start</li>
+</ol>
+
+### To access the admin dashboard
+
+<ol>
+<li>Download the project from the git repository</li>
+<li>You need to create your own MongoDB instance and add the MongoDB url to the .env file</li>
+<li>Register on the website and go to your MongoDB and manually change the 'isAdmin' field of the account you want to make admin in the DB to 'true' and then log in back on the site</li>
+<li>Now you will be able to access the admin dashboard</li>
+</ol>
+
 
 ### Tools and technologies used :
 1. MongoDB
