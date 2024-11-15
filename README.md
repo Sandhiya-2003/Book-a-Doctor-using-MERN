@@ -1,5 +1,6 @@
 # Book-a-Doctor-using-MERN
 In this Project we have tried to create a Book a Doctor Application using MERN Stack. This application is designed to facilitate online appointment booking for patients and doctors. It provides a user-friendly interface for patients to search for doctors, book appointments, and manage their schedules.
+
 **Prerequisites**
 1. Node.js and npm (or yarn): Ensure you have the latest versions installed.
 2. MongoDB: Set up a local or cloud-based MongoDB database.
